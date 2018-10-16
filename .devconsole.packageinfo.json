@@ -1,0 +1,45 @@
+{
+  "Identity": {
+    "id": "Node.js",
+    "version": "5.3.0"
+  },
+  "ProvenanceInfo": {
+    "Status": 2,
+    "Source": "https://msazure.pkgs.visualstudio.com/defaultcollection/_apis/packaging/nugetmirror/nuget/index.json",
+    "AcquisitionDate": "2018-10-10T19:30:31.7574126+02:00"
+  },
+  "Layout": {
+    "Files": [
+      {
+        "Path": "node.exe",
+        "Size": 14469272
+      },
+      {
+        "Path": "Node.js.nuspec",
+        "Size": 1592
+      },
+      {
+        "Path": "readme.txt",
+        "Size": 1493
+      },
+      {
+        "Path": "content\\.bin\\node.cmd",
+        "Size": 81
+      },
+      {
+        "Path": "tools\\bin_tools.ps1",
+        "Size": 1926
+      },
+      {
+        "Path": "tools\\install.ps1",
+        "Size": 172
+      },
+      {
+        "Path": "tools\\uninstall.ps1",
+        "Size": 138
+      }
+    ],
+    "FileRoot": "Node.js.5.3.0",
+    "Status": 1
+  }
+}
