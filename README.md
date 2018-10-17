@@ -5,7 +5,8 @@ Nuget package include:
 - Npm v6.4.1
 
 ## Usage inside of csproj
-```<PropertyGroup>
+```
+<PropertyGroup>
   <BuildDependsOn>
     NpmInstall;
     GrunAll;
