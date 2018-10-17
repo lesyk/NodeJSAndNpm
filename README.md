@@ -24,4 +24,5 @@ Nuget package include:
   <Message Text="Running grunt all"/>
   <Exec Command="$(PkgNodeJSAndNpm)\node.exe node_modules\grunt\bin\grunt all" WorkingDirectory="./" />
   <Message Text="Grunt finished."/>
-</Target>```
+</Target>
+```
