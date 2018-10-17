@@ -1,20 +1,18 @@
 # NodeJSAndNpm
-=============
 
 Nuget package include:
 - Node.js v8.12.0
 - Npm v6.4.1
 
 ## Usage inside of csproj
-```
-<PropertyGroup>
+```<PropertyGroup>
   <BuildDependsOn>
     NpmInstall;
     GrunAll;
     $(BuildDependsOn)
   </BuildDependsOn>
 </PropertyGroup>
-  
+
 <Target Name="NpmInstall" BeforeTargets="BeforeBuild; BeforeClean">
   <Message Text="Installing packages"/>
   <Exec Command="$(PkgNodeJSAndNpm)\npm install --scripts-prepend-node-path" WorkingDirectory="./" />
@@ -25,7 +23,4 @@ Nuget package include:
   <Message Text="Running grunt all"/>
   <Exec Command="$(PkgNodeJSAndNpm)\node.exe node_modules\grunt\bin\grunt all" WorkingDirectory="./" />
   <Message Text="Grunt finished."/>
-</Target>
-```
-
-© 2018 Node.js Foundation
+</Target>```
