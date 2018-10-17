@@ -26,3 +26,7 @@ Nuget package include:
   <Message Text="Grunt finished."/>
 </Target>
 ```
+
+❤️ https://nodejs.org/ | [Licence](https://github.com/nodejs/node/blob/master/LICENSE)
+
+❤️ https://www.npmjs.com/ | [Licence](https://github.com/npm/cli/blob/latest/LICENSE)
