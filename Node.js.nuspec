@@ -4,7 +4,7 @@
         <id>NodeJSAndNpm</id>
         <version>10.0.1</version>
         <title>NodeJSAndNpm</title>
-        <authors>Node.js Foundation</authors>
+        <authors></authors>
         <owners>Pavel Nezhencev</owners>
         <licenseUrl>https://github.com/nodejs/node/blob/master/LICENSE, https://github.com/npm/cli/blob/latest/LICENSE</licenseUrl>
         <projectUrl>https://nodejs.org/, https://www.npmjs.com/</projectUrl>
