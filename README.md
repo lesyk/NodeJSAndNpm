@@ -1,6 +1,6 @@
 # NodeJSAndNpm
 
-Nuget package include:
+Nuget package includes:
 - Node.js v8.12.0
 - Npm v6.4.1
 
